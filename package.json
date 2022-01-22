@@ -1,0 +1,14 @@
+{
+  "name": "f1f0a567e7088c40",
+  "main": "f1f0a567e7088c40@676.js",
+  "version": "676.0.0",
+  "homepage": "https://observablehq.com/d/f1f0a567e7088c40",
+  "author": {
+    "name": "caitlyn m",
+    "url": "https://observablehq.com/@caitlynmralph"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
