@@ -8,7 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
         body {
             /* background-color: rgba(253, 231, 204, 0.651); */
-            background-color: #e6ab0212;
+            background-color: white;
             margin: 20px;
             /* border-top: 2px solid #808000; */
             /* border-left: 2px solid olive; */
@@ -23,13 +23,21 @@
             margin-bottom:-13px;            
             /* border-bottom: 2px solid olive; */
             padding-bottom: 3px; 
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
             color: olive;
             font-family: 'Libre Franklin', sans-serif;
             font-size: 30px;
             display: inline-block;
         }
+        p {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
         details {
             margin-bottom: 20px;
+            padding: 10px;
         }
         ul {
             list-style-type: none;
@@ -55,10 +63,10 @@
 </head>
 <body>
 
-<!-- <h1>🎧 here's my year in music (2021)</h1> -->
-<p"><h1>🎧 here's my year in music for 2021</h1><span style="padding-left:5px;font-weight:lighter;color:olive;"><em>ft. the strokes and inhaler, mostly</em></span></p>
+<div style="background-color: #e6ab0212;">
+<p><h1>🎧 here's my year in music for 2021</h1><span style="padding-left:5px;font-weight:lighter;color:olive;"><em>ft. the strokes and inhaler, mostly</em></span></p>
 </br>
-<b>🤍 this code was taken from sahil chinoy's "2021 in music" <a href="https://observablehq.com/@sahilchinoy/2021-in-music">observable notebook</a>. thanks, sahil.</b>
+<b style="padding-left:10px;">🤍 this code was taken from sahil chinoy's "2021 in music" <a href="https://observablehq.com/@sahilchinoy/2021-in-music">observable notebook</a>. thanks, sahil.</b>
 <p>🏳️ each dot is a single play. when you mouse over, it highlights the same track in <span style="color:#0000ff">blue</span> and the same artist in <span style="color:#e6ab02">yellow</span>.</br>
 🏳️ i lived in GMT from jan to sept, but the times are shown in EST. but, i basically lived and worked EST hours while i was there, so it still mostly works.</br></p>
 <details>
@@ -80,7 +88,7 @@
 <li>▫️ <a href="https://open.spotify.com/playlist/37i9dQZF1EUMDoJuT8yJsl?si=44c5551c551045d1">here</a> is my 2021 spotify wrapped playlist.</a></li>
 </ul>
 </details>
-
+</div>
 <script type="module">
 
 import define from "./index.js";
