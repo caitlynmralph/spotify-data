@@ -2,7 +2,83 @@
 <meta charset="utf-8">
 <title>2021 in music</title>
 <link rel="stylesheet" type="text/css" href="./inspector.css">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;1,100;1,300&display=swap');        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+        body {
+            background-color: rgba(253, 231, 204, 0.651);            
+            margin: 20px;
+            /* border-top: 2px solid #808000; */
+            /* border-left: 2px solid olive; */
+            padding: 20px;
+            color: rgba(0, 0, 0, 0.685);
+            /* color: #0000ff */
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+        }
+        h1 {
+            margin-top:5px;
+            margin-bottom:-13px;            
+            /* border-bottom: 2px solid olive; */
+            padding-bottom: 3px; 
+            color: olive;
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 30px;
+            display: inline-block;
+        }
+        details {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            padding-bottom: 7px;
+            font-size: 14px;
+        }
+        input {
+            font-family: 'Roboto', sans-serif;
+        }
+        svg {
+            /* padding-right: 10px; */
+            font-family: 'Roboto', sans-serif;
+        }
+        div {
+            font-size: 15px;
+        }
+        a:visited {
+            color: blue;
+        }
+    </style>
+</head>
 <body>
+
+<!-- <h1>🎧 here's my year in music (2021)</h1> -->
+<p"><h1>🎧 here's my year in music (2021)</h1><span style="padding-left:5px;font-weight:lighter;color:olive;"><em>ft. the strokes and inhaler, mostly</em></span></p>
+</br>
+<b>🤍 this code was taken from sahil chinoy's "2021 in music" <a href="https://observablehq.com/@sahilchinoy/2021-in-music">observable notebook</a>. thanks, sahil.</b>
+<p>🏳️ each dot is a single play. mouse over highlights the same track in green and the same artist in blue.</br>
+🏳️ i lived in GMT from jan to sept, but the times shown are in EST. but i basically lived and worked EST hours while i was there.</br></p>
+<details>
+<summary><b>💬 here are some of my personal 2021 music-related fun facts you didn't ask for:</b></summary>
+<ul>
+<li>▫️ i saw inhaler—wow, when i'm typing this i actually can't remember—either eleven or twelve times last year. this is on top of seeing them open for blossoms once in 2019, their only US tour before this year.</li>
+<li>▫️ i went to three UK festivals: reading festival (friday), neighbourhood weekender in warrington, and trnsmt in glasgow. previously, i had only been to leeds fest in 2019.</li>
+<li>▫️ i got tattoos for the strokes ("12:51" on my right arm), alex turner (dedicated to "stuck on the puzzle"), and blossoms. nothing against blossoms, but that one sucked, so i'm currently getting it removed lol.</li>
+<li>▫️ i saw sam fender five times over the summer, including barricade when he was second-to-top at trsnmt and (accidentally, long-ish story) barricade london's brixton academy. i've seen him another two times previously in nyc.</li>
+<li>▫️ i also saw sea girls five times, and they were actually the only show i saw in edinburgh, and the last show i saw before i moved back to nyc. </br> ➡️ i got a setlist, ended up leaving it in the venue bathroom, went to the train station, and cried to my mom on facetime. i later realized i was crying bc a big period of my life was ending, and it was just letting it out via the setlist debacle.</li>
+<li>▫️ i saw shows in: edinburgh, glasgow, manchester, liverpool, sheffield, leeds, london, brighton, and leicester. i feel like i'm missing one, but let's move before i pull out my google calendar and flip back to last year.</li>
+<li>▫️ i bought fifteen copies of the inhaler record, including one where my favorite member wrote my favorite the strokes - "12:51" lyrics on it ("the world is shutting out for us").</li>
+<li>▫️ my favorite record of the year, though, was sam fender's "seventeen going under." it was a really tough debate between it and arlo parks' "collapsed in sunbeams." even while i type it, i'm tempted to change my mind.</li>
+<li>▫️ my favorite new artist of the year was dylan fraser. i heard his first single, "vipers," premiere on the radio back in 2019. he released two EPs last year, and they are mint.</li>
+<li>▫️ my favorite song was—indie kids everywhere hold for surprise (not)—"chaise lounge" by wet leg.</li>
+<li>▫️ i was supposed to celebrate 2022 with julian casablancas telling me "happy new year" at barclays center, but it's now moved until april 6. i'm actually not sure the year will actually start until then.</li>
+<li>▫️ interestingly, there has been a shift in my listening since december, and i've stopped listening to as much new music. if i got my january 2022 data, it would be older artists. search "the stone roses."</li>
+<li>▫️ <a href="https://open.spotify.com/playlist/37i9dQZF1EUMDoJuT8yJsl?si=44c5551c551045d1">here</a> is my 2021 spotify wrapped playlist.</a></li>
+</ul>
+</details>
+
 <script type="module">
 
 import define from "./index.js";
@@ -12,3 +88,5 @@ const runtime = new Runtime();
 const main = runtime.module(define, Inspector.into(document.body));
 
 </script>
+</body>
+</html>
