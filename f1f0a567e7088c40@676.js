@@ -139,7 +139,7 @@ Inputs.color({ label: "same track", value: "#0000ff" })
   main.variable(observer("viewof highlightArtist")).define("viewof highlightArtist", ["Inputs"], function(Inputs){return(
 Inputs.color({
   label: "highlight artist",
-  value: "#808000"
+  value: "#b2d69e"
 })
 )});
   main.variable(observer("highlightArtist")).define("highlightArtist", ["Generators", "viewof highlightArtist"], (G, _) => G.input(_));
