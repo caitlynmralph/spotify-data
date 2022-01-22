@@ -2,6 +2,4 @@
 
 matt wanted to see mine, so blame him.
 
-note that the times are a bit wonky because i spent jan – sept in GMT, but i basically still lived and worked in EST hours.
-
 *tooltip is from <a href="https://observablehq.com/@clhenrick/tooltip-d3-convention">@clhenrick</a>.
