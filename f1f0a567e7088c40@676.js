@@ -125,7 +125,7 @@ md`<pre>   </pre>`
 // md`Tooltip is from [@clhenrick](https://observablehq.com/@clhenrick/tooltip-d3-convention).`
 // )});
   main.variable(observer("viewof base")).define("viewof base", ["Inputs"], function(Inputs){return(
-Inputs.color({ label: "base", value: "rgba(0, 0, 0, 0.685)" })
+Inputs.color({ label: "base", value: "#757575" })
 )});
   main.variable(observer("base")).define("base", ["Generators", "viewof base"], (G, _) => G.input(_));
   main.variable(observer("viewof sameArtist")).define("viewof sameArtist", ["Inputs"], function(Inputs){return(
